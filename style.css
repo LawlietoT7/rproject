@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,400;0,600;1,200;1,300;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    
+    background-image: url(./img/sk9.jpg);
+    background-position:  center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+    color: white;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: rgb(244, 227, 227);
+}
+.hero-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 2px solid rgb(21, 20, 20);
+    font-size: 2rem;
+    letter-spacing: .1rem;
+}
+.hero-btn:hover{
+    border: 2px solid rgb(250, 249, 251);
+    background-color: transparent;
+    transition: 1s;
+
+}
+---course---
+.course{
+    width: 80;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.course h1{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+}
+.course p{
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px;
+    text-align: center;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.course-col{
+    background-color: rgb(226, 163, 82);
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    flex-basis: 31%;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+/*---facilities---*/
+
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.facilities-col{
+    background-color: rgb(147, 99, 41);
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    flex-basis: 31%;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+/*--footer---*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+/* about korea page*/
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: url(./img/sk7.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+    color: rgb(223, 227, 227);
+    font-size: 32px;
+}
+.sub-header{
+    margin-center: 100px;
+}
+.about-korea{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col p{
+    padding: 15px 0 25px;
+    text-align: left;
+}
+.about-col h1{
+    font-size: 32px;
+    padding-top: 0;
+    text-align: center;
+}
+/* to enroll copied */
+.t-header{
+    min-height: 100vh;
+    width: 100%;
+    
+    background-image: url(./img/sk.jpg);
+    background-position:  center;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+.container{
+    max-width: 700px;
+    width: 50%;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    margin: 5% 5% 2%;
+    
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: flex;
+}
+  
+.container .title::before{
+    content: "";
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.content form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    /* width: calc(100% / 2 - 20px); */
+  }
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  .user-details .input-box input:focus,
+  .user-details .input-box input:valid{
+    border-color: #9b59b6;
+  }
+   form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+   }
+   form .category{
+     display: flex;
+     width: 80%;
+     margin: 14px 0 ;
+     justify-content: space-between;
+   }
+   form .category label{
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+   }
+   form .category label .dot{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #d9d9d9;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+  }
+   #dot-1:checked ~ .category label .one,
+   #dot-2:checked ~ .category label .two,
+   #dot-3:checked ~ .category label .three{
+     background: #9b59b6;
+     border-color: #d9d9d9;
+   }
+   form input[type="radio"]{
+     display: none;
+   }
+   form .button{
+     height: 45px;
+     margin: 35px 0
+   }
+   form .button input{
+     height: 100%;
+     width: 100%;
+     border-radius: 5px;
+     border: none;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     background: linear-gradient(135deg, #71b7e6, #9b59b6);
+   }
+   form .button input:hover{
+    /* transform: scale(0.99); */
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    }
+   @media(max-width: 584px){
+   .container{
+    max-width: 50%;
+  }
+  form .user-details .input-box{
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    form .category{
+      width: 100%;
+    }
+    .content form .user-details{
+      max-height: 300px;
+      overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+      width: 5px;
+    }
+    }
+    @media(max-width: 459px){
+    .container .content .category{
+      flex-direction: column;
+    }
+  }
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.classroom-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.classroom-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.fac-header{
+    min-height: 100vh;
+    width: 100%;
+    
+    background-image: url(./img/sk10.jpg);
+    background-position:  center;
+    background-size: cover;
+    position: relative;
+}
+/*---map--*/
+.map{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+
+}
+.map iframe{
+    width: 100%;
+
+}
+.contact{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 38px;
+
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 46px;
+}
